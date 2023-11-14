@@ -1,7 +1,7 @@
 version: "3.7"
 services:
     app:
-      image: deploy-docker/node:v2
+      image: docker/node
       ports:
         - "3000:3000"
       restart: unless-stopped
